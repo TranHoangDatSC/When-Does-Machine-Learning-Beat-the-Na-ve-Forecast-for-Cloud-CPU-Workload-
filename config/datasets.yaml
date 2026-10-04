@@ -1,0 +1,97 @@
+# Khai báo ba môi trường.
+
+E1:
+  name: Bitbrains-fastStorage
+  path: data/raw/Bitbrains-fastStorage/08-2013
+  glob: "*.csv"
+  sep: ";\t"
+  header: true
+  target: "CPU usage [%]"
+  time_col: "Timestamp [ms]"
+  time_unit: s          # header ghi [ms] nhưng thực tế là giây
+  entity: vm
+  use_all: true
+
+E2:
+  name: Bitbrains-Rnd
+  path: data/raw/Bitbrains-Rnd/2013-8   # chỉ dùng tháng 8/2013
+  glob: "*.csv"
+  sep: ";\t"
+  header: true
+  target: "CPU usage [%]"
+  time_col: "Timestamp [ms]"
+  time_unit: s
+  entity: vm
+  id_key: [month, vm_id]   # BẮT BUỘC: tên tệp lặp lại giữa 3 tháng
+
+E3:
+  name: Alibaba-v2018
+  path: data/raw/Alibaba-Cluster-Trace/machine_usage.csv
+  sep: ","
+  header: false            # KHÔNG có header
+  columns: [machine_id, time_stamp, cpu_util_percent, mem_util_percent, mem_gps, mkpi, net_in, net_out, disk_io_percent]
+  usecols: [0, 1, 2]
+  target: cpu_util_percent
+  time_col: time_stamp
+  time_unit: s
+  entity: machine
+  sample:
+    method: stratified
+    n: 500
+    strata: 5
+    by: mean_cpu
+  drop_cols: [mem_gps, mkpi]
+  sentinel:
+    disk_io_percent: [-1, 101]
+
+# ---------------------------------------------------------------- Thí nghiệm B
+# Cùng nguồn dữ liệu, khác cửa sổ thời gian. Độ dài cửa sổ truyền bằng
+# --window-days khi chạy tiền xử lý, không ghi ở đây, để một chỗ khai báo duy nhất.
+
+E1L:                       # Bitbrains fastStorage, trọn 30 ngày
+  name: Bitbrains-fastStorage-30n
+  path: data/raw/Bitbrains-fastStorage/08-2013
+  glob: "*.csv"
+  sep: ";\t"
+  header: true
+  target: "CPU usage [%]"
+  time_col: "Timestamp [ms]"
+  time_unit: s
+  entity: vm
+  use_all: true
+
+E2m07:                     # Bitbrains Rnd, tháng 7/2013
+  name: Bitbrains-Rnd-2013-7
+  path: data/raw/Bitbrains-Rnd/2013-7
+  glob: "*.csv"
+  sep: ";\t"
+  header: true
+  target: "CPU usage [%]"
+  time_col: "Timestamp [ms]"
+  time_unit: s
+  entity: vm
+  id_key: [month, vm_id]
+
+E2m08:                     # Bitbrains Rnd, tháng 8/2013, dùng làm dữ liệu phát triển
+  name: Bitbrains-Rnd-2013-8
+  path: data/raw/Bitbrains-Rnd/2013-8
+  glob: "*.csv"
+  sep: ";\t"
+  header: true
+  target: "CPU usage [%]"
+  time_col: "Timestamp [ms]"
+  time_unit: s
+  entity: vm
+  id_key: [month, vm_id]
+
+E2m09:                     # Bitbrains Rnd, tháng 9/2013
+  name: Bitbrains-Rnd-2013-9
+  path: data/raw/Bitbrains-Rnd/2013-9
+  glob: "*.csv"
+  sep: ";\t"
+  header: true
+  target: "CPU usage [%]"
+  time_col: "Timestamp [ms]"
+  time_unit: s
+  entity: vm
+  id_key: [month, vm_id]

@@ -1,0 +1,8 @@
+# Đường dẫn. Sửa ở đây, không hardcode trong code.
+raw: data/raw
+interim: data/interim
+processed: data/processed
+catalog: data/catalog.parquet
+runs: runs
+results: results
+seed: 42

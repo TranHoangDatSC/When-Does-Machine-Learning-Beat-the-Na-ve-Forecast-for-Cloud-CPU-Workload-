@@ -1,0 +1,33 @@
+# Tiền xử lý (notebook 01).
+
+grid_seconds: 300
+aggregate: mean
+
+# Cửa sổ 8 ngày, CHUNG cho cả môi trường (không lấy riêng theo từng chuỗi)
+window:
+  days: 8
+  origin: env_global      # env_global | per_series
+
+# Xử lý lỗ hổng
+gap:
+  method: linear_interp   # KHÔNG dùng ffill: tạo đoạn phẳng giả, làm tăng tự tương quan
+  max_len: 2              # K: chỉ nội suy cụm NaN dài <= 2 điểm (10 phút)
+  # K = 0 -> không nội suy, dùng để kiểm tra độ vững
+
+clip: [0, 100]
+
+sentinel:
+  disk_io_percent: [-1, 101]
+
+drop_cols: [mem_gps, mkpi]
+
+# Lọc chuỗi
+filter:
+  min_valid_rows_h12: 500   # ít nhất 500 dòng huấn luyện hợp lệ ở h = 12
+  min_mean: 1.0             # CPU trung bình dưới 1% là gần như không hoạt động
+  min_unique: 3             # gần như hằng số
+
+# Dòng huấn luyện hợp lệ
+row_validity:
+  max_lag: 24               # cửa sổ đặc trưng sâu nhất
+  require_full_window: true # [t-24, t] và t+h đều không NaN

@@ -1,0 +1,51 @@
+# Chia dữ liệu (notebook 03).
+shuffle: false               # KHÔNG xáo trộn
+train: 0.70
+val: 0.15
+test: 0.15
+
+# Ranh giới tính theo BUCKET của cửa sổ 2304 điểm, không theo số dòng.
+#   train [0, 1612)  val [1612, 1957)  test [1957, 2304)
+# Một dòng thuộc tập S khi CẢ t VÀ t+h nằm trong S; dòng vắt qua ranh giới bị LOẠI.
+# Chỉ gán theo t là RÒ RỈ: dòng cuối tập train sẽ có target rơi vào val hoặc test.
+boundary: bucket
+purge_straddling: true
+# Vùng validation [1612, 1957) rộng 345 bucket, chia 5 được 69 mỗi fold.
+# Luật purge ở trên áp TRONG TỪNG FOLD. Không fold nào chạm tới test [1957, 2304).
+cv:
+  method: rolling_origin
+  mode: expanding              # KHÔNG dùng sliding: cửa sổ chỉ 8 ngày, train của fold
+                               # cuối sẽ ngắn tới mức vô nghĩa. Expanding cũng khớp
+                               # cách hệ thống thật chạy: càng về sau càng nhiều lịch sử.
+  n_splits: 5
+  val_bucket_per_fold: 69
+  bien_fold: [1612, 1681, 1750, 1819, 1888, 1957]
+horizons: [1, 6, 12]
+strategy: direct
+
+# Mẫu con cho SVR (SVR quá chậm trên toàn bộ dữ liệu); các model khác luôn dùng 100%.
+svr_subsample:
+  lay_tren: dong_huan_luyen    # KHÔNG lấy trên chuỗi: bỏ bớt chuỗi là đổi QUẦN THỂ,
+                               # mọi kết luận mức chuỗi sẽ không so được với các model khác
+  stratify_by: cv_tier         # ba tầng độ giật, giữ nguyên tỉ lệ
+  random_state: 42
+  dung_chung_moi_horizon: true
+  test_giu_nguyen: true        # mọi model phải chấm trên đúng cùng bộ dòng
+
+normalize_modes: [N0, N1, N2]   # ba cách chuẩn hoá của Thí nghiệm 2 (notebook 05)
+fit_stats_on: train_only        # chống rò rỉ
+
+# Phân tầng theo độ giật khi BÁO CÁO kết quả Thí nghiệm 1.
+# Không dùng ngưỡng tuyệt đối chung cho ba môi trường: tương quan giữa CV và mức tải
+# đổi dấu giữa Bitbrains (+0,375 / +0,249) và Alibaba (-0,692), và tam phân vị của E3
+# chỉ rộng 0,06 nên sẽ bị dồn hết vào một tầng.
+stratify:
+  by: cv
+  method: percentile_within_env   # KHÔNG dùng ngưỡng tuyệt đối chung
+  n_strata: 3
+  report_column: ti_le_cham_chan  # CV / sqrt((100-m)/m), phân biệt ít giật thật
+                                  # với ít giật vì đã chạm trần thang đo
+  # CV trong results/tables/cv.csv tính trên TOÀN BỘ cửa sổ 8 ngày.
+  # Dùng để nhóm chuỗi khi đọc bảng thì không sao. Dùng làm ĐẶC TRƯNG hay tiêu chí
+  # CHỌN MODEL thì là rò rỉ -> phải tính lại chỉ trên cửa sổ train.
+  chi_dung_de_bao_cao: true

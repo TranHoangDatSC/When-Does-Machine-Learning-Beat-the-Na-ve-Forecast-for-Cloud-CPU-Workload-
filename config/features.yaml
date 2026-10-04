@@ -1,0 +1,19 @@
+# Đặc trưng (notebook 03).
+#
+# Tệp này chỉ để đọc. Tên cột và quy ước chính thức nằm ở src/cwp/features/spec.py;
+# code không đọc tệp này, nên sửa ở đây không đổi hành vi của thứ gì.
+
+lags: [1, 2, 3, 6, 12, 24]
+rolling_windows: [6, 12]
+rolling_stats: [mean, std, min, max]
+diff: true
+calendar: [hour_sin, hour_cos, dow_sin, dow_cos]
+shift_before_rolling: true   # chỉ dùng quá khứ
+
+# Ba quy ước phải ghi rõ, vì hai cách viết đều "đúng" vẫn có thể ra số khác nhau.
+rolling_ddof: 1              # pandas mặc định 1, numpy mặc định 0
+dow_epoch_offset: 4          # ((t // 86400) + 4) % 7 -> 0 là Chủ nhật
+grid_seconds: 300            # phải khớp config/preprocess.yaml
+
+# Độ sâu cửa sổ đặc trưng. Phải bằng row_validity.max_lag trong config/preprocess.yaml.
+max_lag: 24

@@ -1,0 +1,19 @@
+# Đóng gói tối thiểu để `import cwp` chạy được từ notebook và script.
+#
+# Phụ thuộc KHÔNG khai ở đây: chúng được ghim phiên bản trong requirements.txt, khai
+# một nơi để khỏi lệch nhau.
+#
+# Cài một lần sau khi clone:  pip install -e .
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cwp"
+version = "0.1.0"
+description = "Dự đoán tải CPU trên đám mây: mã nguồn và notebook kèm bài báo"
+requires-python = ">=3.10,<3.13"
+
+[tool.setuptools.packages.find]
+where = ["src"]
