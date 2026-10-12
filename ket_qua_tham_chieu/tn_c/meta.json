@@ -1,0 +1,60 @@
+{
+  "thi_nghiem": "tn_c",
+  "ngay": "2026-09-27T09:42:43+00:00",
+  "argv": [
+    "--tat-ca",
+    "--resume"
+  ],
+  "python": ".venv\\Scripts\\python.exe",
+  "cap": [
+    [
+      "E1",
+      "E2"
+    ],
+    [
+      "E2",
+      "E1"
+    ],
+    [
+      "E1",
+      "E3"
+    ],
+    [
+      "E3",
+      "E1"
+    ],
+    [
+      "E2",
+      "E3"
+    ],
+    [
+      "E3",
+      "E2"
+    ]
+  ],
+  "horizons": [
+    1,
+    6,
+    12
+  ],
+  "modes": [
+    "N0",
+    "N1"
+  ],
+  "models": [
+    "ridge",
+    "xgb",
+    "xgb_mae"
+  ],
+  "seed": 42,
+  "chieu_tai_cho": "lấy từ Thí nghiệm A, không chạy lại",
+  "van_tay": {
+    "ma": "28b2571b6ee51c57",
+    "cau_hinh": "b141960851ad8c7b",
+    "du_lieu": "edc53f01538fa0a5"
+  },
+  "phien_ban": {
+    "python": "3.11.9"
+  },
+  "giay": 11822.5
+}

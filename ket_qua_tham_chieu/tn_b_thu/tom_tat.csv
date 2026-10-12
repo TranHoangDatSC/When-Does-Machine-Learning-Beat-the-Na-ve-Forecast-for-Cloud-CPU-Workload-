@@ -1,0 +1,29 @@
+thi_nghiem,nguon,dich,mode,h,model,loss,seed,fold,n_train,n_cham,sieu_tham_so,diem_val,giay,tep_du_doan,ghi_chu,van_tay_ma,van_tay_cau_hinh,van_tay_du_lieu
+tn_b,E2m08,E2m08,N0,1,naive,khong,42,o4032,0,608210,{},,3.3,E2m08-E2m08_N0_co_naive_khong_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N0,1,ma6,khong,42,o4032,0,608210,{},,1.7,E2m08-E2m08_N0_co_ma6_khong_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N0,1,seasonal,khong,42,o4032,0,608210,{},,2.4,E2m08-E2m08_N0_co_seasonal_khong_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N0,1,seasonal_tuan,khong,42,o4032,0,608210,{},,1.7,E2m08-E2m08_N0_co_seasonal_tuan_khong_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N0,1,ridge,binh_phuong,42,o4032,1199058,608210,"{""alpha"": 10.0}",,5.8,E2m08-E2m08_N0_co_ridge_binh_phuong_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N0,1,xgb,binh_phuong,42,o4032,1199058,608210,"{""max_depth"": 8, ""n_estimators"": 300}",,25.3,E2m08-E2m08_N0_co_xgb_binh_phuong_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N0,1,xgb_mae,tuyet_doi,42,o4032,1199058,608210,"{""max_depth"": 8, ""n_estimators"": 600}",,359.1,E2m08-E2m08_N0_co_xgb_mae_tuyet_doi_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,1,naive,khong,42,o4032,0,608210,{},,1.2,E2m08-E2m08_N1_co_naive_khong_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,1,ma6,khong,42,o4032,0,608210,{},,1.3,E2m08-E2m08_N1_co_ma6_khong_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,1,seasonal,khong,42,o4032,0,608210,{},,2.1,E2m08-E2m08_N1_co_seasonal_khong_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,1,seasonal_tuan,khong,42,o4032,0,608210,{},,2.1,E2m08-E2m08_N1_co_seasonal_tuan_khong_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,1,ridge,binh_phuong,42,o4032,1199058,608210,"{""alpha"": 1.0}",,3.2,E2m08-E2m08_N1_co_ridge_binh_phuong_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,1,xgb,binh_phuong,42,o4032,1199058,608210,"{""max_depth"": 8, ""n_estimators"": 300}",,27.5,E2m08-E2m08_N1_co_xgb_binh_phuong_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,1,xgb_mae,tuyet_doi,42,o4032,1199058,608210,"{""max_depth"": 8, ""n_estimators"": 600}",,291.1,E2m08-E2m08_N1_co_xgb_mae_tuyet_doi_h1_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N0,12,naive,khong,42,o4032,0,604889,{},,1.2,E2m08-E2m08_N0_co_naive_khong_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N0,12,ma6,khong,42,o4032,0,604889,{},,1.1,E2m08-E2m08_N0_co_ma6_khong_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N0,12,seasonal,khong,42,o4032,0,604889,{},,2.3,E2m08-E2m08_N0_co_seasonal_khong_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N0,12,seasonal_tuan,khong,42,o4032,0,604889,{},,2.3,E2m08-E2m08_N0_co_seasonal_tuan_khong_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N0,12,ridge,binh_phuong,42,o4032,1193840,604889,"{""alpha"": 1.0}",,2.8,E2m08-E2m08_N0_co_ridge_binh_phuong_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N0,12,xgb,binh_phuong,42,o4032,1193840,604889,"{""max_depth"": 8, ""n_estimators"": 300}",,23.7,E2m08-E2m08_N0_co_xgb_binh_phuong_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N0,12,xgb_mae,tuyet_doi,42,o4032,1193840,604889,"{""max_depth"": 4, ""n_estimators"": 300}",,153.7,E2m08-E2m08_N0_co_xgb_mae_tuyet_doi_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,12,naive,khong,42,o4032,0,604889,{},,1.2,E2m08-E2m08_N1_co_naive_khong_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,12,ma6,khong,42,o4032,0,604889,{},,1.2,E2m08-E2m08_N1_co_ma6_khong_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,12,seasonal,khong,42,o4032,0,604889,{},,2.2,E2m08-E2m08_N1_co_seasonal_khong_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,12,seasonal_tuan,khong,42,o4032,0,604889,{},,2.2,E2m08-E2m08_N1_co_seasonal_tuan_khong_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,12,ridge,binh_phuong,42,o4032,1193840,604889,"{""alpha"": 0.1}",,2.9,E2m08-E2m08_N1_co_ridge_binh_phuong_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,12,xgb,binh_phuong,42,o4032,1193840,604889,"{""max_depth"": 4, ""n_estimators"": 300}",,17.5,E2m08-E2m08_N1_co_xgb_binh_phuong_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb
+tn_b,E2m08,E2m08,N1,12,xgb_mae,tuyet_doi,42,o4032,1193840,604889,"{""max_depth"": 4, ""n_estimators"": 300}",,150.4,E2m08-E2m08_N1_co_xgb_mae_tuyet_doi_h12_o4032.parquet,,fbad7b8b0cd53ff5,b141960851ad8c7b,fc23f52173ada0fb

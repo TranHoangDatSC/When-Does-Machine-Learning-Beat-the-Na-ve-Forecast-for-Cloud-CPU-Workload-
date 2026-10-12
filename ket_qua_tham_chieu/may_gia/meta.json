@@ -1,0 +1,60 @@
+{
+  "thi_nghiem": "may_gia",
+  "ngay": "2026-09-27T15:25:58+00:00",
+  "argv": [
+    "--may-gia",
+    "--tat-ca",
+    "--out",
+    "results\\v5\\may_gia",
+    "--resume"
+  ],
+  "python": ".venv\\Scripts\\python.exe",
+  "cap": [
+    [
+      "E1a",
+      "E1a"
+    ],
+    [
+      "E1a",
+      "E1g"
+    ],
+    [
+      "E1g",
+      "E1g"
+    ],
+    [
+      "E1g",
+      "E1a"
+    ]
+  ],
+  "horizons": [
+    1,
+    6,
+    12
+  ],
+  "modes": [
+    "N0",
+    "N1"
+  ],
+  "models": [
+    "ridge",
+    "xgb",
+    "xgb_mae"
+  ],
+  "co_so_tai_cho": [
+    "naive",
+    "ma6",
+    "seasonal"
+  ],
+  "seed": 42,
+  "chieu_tai_cho": "lấy từ Thí nghiệm A, không chạy lại",
+  "van_tay": {
+    "ma": "c34d7b1e76fdb0d2",
+    "cau_hinh": "b141960851ad8c7b",
+    "du_lieu": "661f7f21411506d5"
+  },
+  "phien_ban": {
+    "python": "3.11.9"
+  },
+  "giay": 2786.5
+}

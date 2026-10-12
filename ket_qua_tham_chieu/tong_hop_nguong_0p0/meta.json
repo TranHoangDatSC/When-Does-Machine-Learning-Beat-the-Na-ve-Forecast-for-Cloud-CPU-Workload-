@@ -1,0 +1,29 @@
+{
+  "ngay": "2026-09-28T19:22:11",
+  "argv": [
+    "--goc",
+    "results\\v5\\do_nhay",
+    "--thi-nghiem",
+    "nguong_0p0",
+    "--processed",
+    "data\\nguong_0p0\\processed",
+    "--eval-rows",
+    "data\\nguong_0p0\\eval_rows",
+    "--out",
+    "results\\v5\\tong_hop_nguong_0p0"
+  ],
+  "python": ".venv\\Scripts\\python.exe",
+  "thi_nghiem": [
+    "nguong_0p0"
+  ],
+  "ti_le_phat": [
+    1,
+    2,
+    5,
+    10
+  ],
+  "alpha": 0.05,
+  "n_boot": 1000,
+  "ho_kiem_dinh": "mỗi mô hình so với naive trong cùng (thí nghiệm, nguồn, đích, chế độ, tầm, fold)",
+  "giay": 27.6
+}

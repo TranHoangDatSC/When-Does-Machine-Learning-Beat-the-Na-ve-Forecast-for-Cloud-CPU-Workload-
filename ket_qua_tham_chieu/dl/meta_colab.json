@@ -1,0 +1,52 @@
+{
+  "ngay": "2026-09-28T10:14:26+00:00",
+  "argv": [
+    "--env",
+    "E1,E2",
+    "--horizons",
+    "1,12",
+    "--models",
+    "gru",
+    "--seeds",
+    "42",
+    "--goi",
+    "/content/goi",
+    "--out",
+    "/content/drive/MyDrive/cwp_gru/ket_qua",
+    "--epochs",
+    "30",
+    "--patience",
+    "5",
+    "--bat-buoc-gpu",
+    "--resume"
+  ],
+  "python": "/usr/bin/python3",
+  "torch": "2.11.0+cu128",
+  "thiet_bi": "cuda",
+  "cap": [
+    [
+      "E1",
+      "E1"
+    ],
+    [
+      "E2",
+      "E2"
+    ]
+  ],
+  "horizons": [
+    1,
+    12
+  ],
+  "models": [
+    "gru"
+  ],
+  "seeds": [
+    42
+  ],
+  "L": 288,
+  "epochs": 30,
+  "patience": 5,
+  "batch": 1024,
+  "lr": 0.001,
+  "chuan_hoa": "N1: mu, sd của phần train từng máy"
+}

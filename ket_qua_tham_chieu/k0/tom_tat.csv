@@ -1,0 +1,91 @@
+thi_nghiem,nguon,dich,mode,h,model,loss,seed,fold,n_train,n_cham,sieu_tham_so,diem_val,giay,tep_du_doan,ghi_chu,van_tay_ma,van_tay_cau_hinh,van_tay_du_lieu
+tn_a,E1,E1,N0,1,naive,khong,42,test,0,242700,{},,0.4,E1-E1_N0_co_naive_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,1,ma6,khong,42,test,0,242700,{},,0.3,E1-E1_N0_co_ma6_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,1,seasonal,khong,42,test,0,242700,{},,0.7,E1-E1_N0_co_seasonal_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,1,xgb,binh_phuong,42,test,1362013,242700,"{""max_depth"": 8, ""n_estimators"": 600}",,43.6,E1-E1_N0_co_xgb_binh_phuong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,1,xgb_mae,tuyet_doi,42,test,1362013,242700,"{""max_depth"": 8, ""n_estimators"": 600}",,312.7,E1-E1_N0_co_xgb_mae_tuyet_doi_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,6,naive,khong,42,test,0,239200,{},,0.3,E1-E1_N0_co_naive_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,6,ma6,khong,42,test,0,239200,{},,0.4,E1-E1_N0_co_ma6_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,6,seasonal,khong,42,test,0,239200,{},,1.1,E1-E1_N0_co_seasonal_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,6,xgb,binh_phuong,42,test,1358473,239200,"{""max_depth"": 8, ""n_estimators"": 600}",,46.6,E1-E1_N0_co_xgb_binh_phuong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,6,xgb_mae,tuyet_doi,42,test,1358473,239200,"{""max_depth"": 8, ""n_estimators"": 300}",,156.8,E1-E1_N0_co_xgb_mae_tuyet_doi_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,12,naive,khong,42,test,0,235064,{},,0.4,E1-E1_N0_co_naive_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,12,ma6,khong,42,test,0,235064,{},,0.4,E1-E1_N0_co_ma6_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,12,seasonal,khong,42,test,0,235064,{},,0.9,E1-E1_N0_co_seasonal_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,12,xgb,binh_phuong,42,test,1354217,235064,"{""max_depth"": 8, ""n_estimators"": 300}",,29.3,E1-E1_N0_co_xgb_binh_phuong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N0,12,xgb_mae,tuyet_doi,42,test,1354217,235064,"{""max_depth"": 8, ""n_estimators"": 300}",,157.3,E1-E1_N0_co_xgb_mae_tuyet_doi_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,1,naive,khong,42,test,0,242700,{},,0.5,E1-E1_N1_co_naive_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,1,ma6,khong,42,test,0,242700,{},,0.6,E1-E1_N1_co_ma6_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,1,seasonal,khong,42,test,0,242700,{},,1.1,E1-E1_N1_co_seasonal_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,1,xgb,binh_phuong,42,test,1362013,242700,"{""max_depth"": 8, ""n_estimators"": 300}",,33.0,E1-E1_N1_co_xgb_binh_phuong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,1,xgb_mae,tuyet_doi,42,test,1362013,242700,"{""max_depth"": 8, ""n_estimators"": 600}",,328.5,E1-E1_N1_co_xgb_mae_tuyet_doi_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,6,naive,khong,42,test,0,239200,{},,0.4,E1-E1_N1_co_naive_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,6,ma6,khong,42,test,0,239200,{},,0.4,E1-E1_N1_co_ma6_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,6,seasonal,khong,42,test,0,239200,{},,0.7,E1-E1_N1_co_seasonal_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,6,xgb,binh_phuong,42,test,1358473,239200,"{""max_depth"": 8, ""n_estimators"": 300}",,32.5,E1-E1_N1_co_xgb_binh_phuong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,6,xgb_mae,tuyet_doi,42,test,1358473,239200,"{""max_depth"": 4, ""n_estimators"": 300}",,150.9,E1-E1_N1_co_xgb_mae_tuyet_doi_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,12,naive,khong,42,test,0,235064,{},,0.4,E1-E1_N1_co_naive_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,12,ma6,khong,42,test,0,235064,{},,0.3,E1-E1_N1_co_ma6_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,12,seasonal,khong,42,test,0,235064,{},,0.6,E1-E1_N1_co_seasonal_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,12,xgb,binh_phuong,42,test,1354217,235064,"{""max_depth"": 4, ""n_estimators"": 300}",,22.0,E1-E1_N1_co_xgb_binh_phuong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E1,E1,N1,12,xgb_mae,tuyet_doi,42,test,1354217,235064,"{""max_depth"": 4, ""n_estimators"": 300}",,146.3,E1-E1_N1_co_xgb_mae_tuyet_doi_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,1,naive,khong,42,test,0,103894,{},,0.2,E2-E2_N0_co_naive_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,1,ma6,khong,42,test,0,103894,{},,0.1,E2-E2_N0_co_ma6_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,1,seasonal,khong,42,test,0,103894,{},,0.3,E2-E2_N0_co_seasonal_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,1,xgb,binh_phuong,42,test,561756,103894,"{""max_depth"": 8, ""n_estimators"": 300}",,11.4,E2-E2_N0_co_xgb_binh_phuong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,1,xgb_mae,tuyet_doi,42,test,561756,103894,"{""max_depth"": 8, ""n_estimators"": 600}",,132.3,E2-E2_N0_co_xgb_mae_tuyet_doi_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,6,naive,khong,42,test,0,102384,{},,0.2,E2-E2_N0_co_naive_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,6,ma6,khong,42,test,0,102384,{},,0.2,E2-E2_N0_co_ma6_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,6,seasonal,khong,42,test,0,102384,{},,0.4,E2-E2_N0_co_seasonal_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,6,xgb,binh_phuong,42,test,558772,102384,"{""max_depth"": 8, ""n_estimators"": 300}",,11.4,E2-E2_N0_co_xgb_binh_phuong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,6,xgb_mae,tuyet_doi,42,test,558772,102384,"{""max_depth"": 8, ""n_estimators"": 300}",,66.6,E2-E2_N0_co_xgb_mae_tuyet_doi_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,12,naive,khong,42,test,0,100572,{},,0.2,E2-E2_N0_co_naive_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,12,ma6,khong,42,test,0,100572,{},,0.2,E2-E2_N0_co_ma6_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,12,seasonal,khong,42,test,0,100572,{},,0.4,E2-E2_N0_co_seasonal_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,12,xgb,binh_phuong,42,test,556429,100572,"{""max_depth"": 8, ""n_estimators"": 300}",,10.4,E2-E2_N0_co_xgb_binh_phuong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N0,12,xgb_mae,tuyet_doi,42,test,556429,100572,"{""max_depth"": 4, ""n_estimators"": 300}",,56.8,E2-E2_N0_co_xgb_mae_tuyet_doi_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,1,naive,khong,42,test,0,103894,{},,0.1,E2-E2_N1_co_naive_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,1,ma6,khong,42,test,0,103894,{},,0.1,E2-E2_N1_co_ma6_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,1,seasonal,khong,42,test,0,103894,{},,0.3,E2-E2_N1_co_seasonal_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,1,xgb,binh_phuong,42,test,561756,103894,"{""max_depth"": 8, ""n_estimators"": 300}",,10.9,E2-E2_N1_co_xgb_binh_phuong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,1,xgb_mae,tuyet_doi,42,test,561756,103894,"{""max_depth"": 8, ""n_estimators"": 600}",,138.1,E2-E2_N1_co_xgb_mae_tuyet_doi_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,6,naive,khong,42,test,0,102384,{},,0.2,E2-E2_N1_co_naive_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,6,ma6,khong,42,test,0,102384,{},,0.2,E2-E2_N1_co_ma6_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,6,seasonal,khong,42,test,0,102384,{},,0.3,E2-E2_N1_co_seasonal_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,6,xgb,binh_phuong,42,test,558772,102384,"{""max_depth"": 4, ""n_estimators"": 300}",,8.7,E2-E2_N1_co_xgb_binh_phuong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,6,xgb_mae,tuyet_doi,42,test,558772,102384,"{""max_depth"": 8, ""n_estimators"": 600}",,124.8,E2-E2_N1_co_xgb_mae_tuyet_doi_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,12,naive,khong,42,test,0,100572,{},,0.1,E2-E2_N1_co_naive_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,12,ma6,khong,42,test,0,100572,{},,0.1,E2-E2_N1_co_ma6_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,12,seasonal,khong,42,test,0,100572,{},,0.3,E2-E2_N1_co_seasonal_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,12,xgb,binh_phuong,42,test,556429,100572,"{""max_depth"": 4, ""n_estimators"": 300}",,9.7,E2-E2_N1_co_xgb_binh_phuong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E2,E2,N1,12,xgb_mae,tuyet_doi,42,test,556429,100572,"{""max_depth"": 4, ""n_estimators"": 300}",,64.1,E2-E2_N1_co_xgb_mae_tuyet_doi_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,1,naive,khong,42,test,0,167910,{},,0.2,E3-E3_N0_co_naive_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,1,ma6,khong,42,test,0,167910,{},,0.2,E3-E3_N0_co_ma6_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,1,seasonal,khong,42,test,0,167910,{},,0.4,E3-E3_N0_co_seasonal_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,1,xgb,binh_phuong,42,test,737013,167910,"{""max_depth"": 4, ""n_estimators"": 300}",,13.0,E3-E3_N0_co_xgb_binh_phuong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,1,xgb_mae,tuyet_doi,42,test,737013,167910,"{""max_depth"": 4, ""n_estimators"": 300}",,91.3,E3-E3_N0_co_xgb_mae_tuyet_doi_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,6,naive,khong,42,test,0,165458,{},,0.2,E3-E3_N0_co_naive_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,6,ma6,khong,42,test,0,165458,{},,0.2,E3-E3_N0_co_ma6_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,6,seasonal,khong,42,test,0,165458,{},,0.4,E3-E3_N0_co_seasonal_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,6,xgb,binh_phuong,42,test,727009,165458,"{""max_depth"": 4, ""n_estimators"": 300}",,14.0,E3-E3_N0_co_xgb_binh_phuong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,6,xgb_mae,tuyet_doi,42,test,727009,165458,"{""max_depth"": 4, ""n_estimators"": 300}",,74.6,E3-E3_N0_co_xgb_mae_tuyet_doi_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,12,naive,khong,42,test,0,162518,{},,0.2,E3-E3_N0_co_naive_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,12,ma6,khong,42,test,0,162518,{},,0.2,E3-E3_N0_co_ma6_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,12,seasonal,khong,42,test,0,162518,{},,0.4,E3-E3_N0_co_seasonal_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,12,xgb,binh_phuong,42,test,718902,162518,"{""max_depth"": 4, ""n_estimators"": 300}",,14.2,E3-E3_N0_co_xgb_binh_phuong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N0,12,xgb_mae,tuyet_doi,42,test,718902,162518,"{""max_depth"": 8, ""n_estimators"": 300}",,96.5,E3-E3_N0_co_xgb_mae_tuyet_doi_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,1,naive,khong,42,test,0,167910,{},,0.2,E3-E3_N1_co_naive_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,1,ma6,khong,42,test,0,167910,{},,0.2,E3-E3_N1_co_ma6_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,1,seasonal,khong,42,test,0,167910,{},,0.4,E3-E3_N1_co_seasonal_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,1,xgb,binh_phuong,42,test,737013,167910,"{""max_depth"": 4, ""n_estimators"": 300}",,14.8,E3-E3_N1_co_xgb_binh_phuong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,1,xgb_mae,tuyet_doi,42,test,737013,167910,"{""max_depth"": 4, ""n_estimators"": 300}",,78.4,E3-E3_N1_co_xgb_mae_tuyet_doi_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,6,naive,khong,42,test,0,165458,{},,0.2,E3-E3_N1_co_naive_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,6,ma6,khong,42,test,0,165458,{},,0.2,E3-E3_N1_co_ma6_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,6,seasonal,khong,42,test,0,165458,{},,0.4,E3-E3_N1_co_seasonal_khong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,6,xgb,binh_phuong,42,test,727009,165458,"{""max_depth"": 4, ""n_estimators"": 300}",,13.7,E3-E3_N1_co_xgb_binh_phuong_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,6,xgb_mae,tuyet_doi,42,test,727009,165458,"{""max_depth"": 8, ""n_estimators"": 300}",,96.1,E3-E3_N1_co_xgb_mae_tuyet_doi_h6_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,12,naive,khong,42,test,0,162518,{},,0.2,E3-E3_N1_co_naive_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,12,ma6,khong,42,test,0,162518,{},,0.2,E3-E3_N1_co_ma6_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,12,seasonal,khong,42,test,0,162518,{},,0.4,E3-E3_N1_co_seasonal_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,12,xgb,binh_phuong,42,test,718902,162518,"{""max_depth"": 4, ""n_estimators"": 300}",,13.1,E3-E3_N1_co_xgb_binh_phuong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb
+tn_a,E3,E3,N1,12,xgb_mae,tuyet_doi,42,test,718902,162518,"{""max_depth"": 4, ""n_estimators"": 300}",,72.8,E3-E3_N1_co_xgb_mae_tuyet_doi_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,3655377a4b6f4deb

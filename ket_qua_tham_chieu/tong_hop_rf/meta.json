@@ -1,0 +1,23 @@
+{
+  "ngay": "2026-09-28T19:21:40",
+  "argv": [
+    "--thi-nghiem",
+    "rf",
+    "--out",
+    "results\\v5\\tong_hop_rf"
+  ],
+  "python": ".venv\\Scripts\\python.exe",
+  "thi_nghiem": [
+    "rf"
+  ],
+  "ti_le_phat": [
+    1,
+    2,
+    5,
+    10
+  ],
+  "alpha": 0.05,
+  "n_boot": 1000,
+  "ho_kiem_dinh": "mỗi mô hình so với naive trong cùng (thí nghiệm, nguồn, đích, chế độ, tầm, fold)",
+  "giay": 10.0
+}

@@ -1,0 +1,25 @@
+{
+  "ngay": "2026-09-28T17:57:03",
+  "argv": [
+    "--thi-nghiem",
+    "tn_a,tn_b,tn_c,may_gia,dl"
+  ],
+  "python": ".venv\\Scripts\\python.exe",
+  "thi_nghiem": [
+    "tn_a",
+    "tn_b",
+    "tn_c",
+    "may_gia",
+    "dl"
+  ],
+  "ti_le_phat": [
+    1,
+    2,
+    5,
+    10
+  ],
+  "alpha": 0.05,
+  "n_boot": 1000,
+  "ho_kiem_dinh": "mỗi mô hình so với naive trong cùng (thí nghiệm, nguồn, đích, chế độ, tầm, fold)",
+  "giay": 779.8
+}

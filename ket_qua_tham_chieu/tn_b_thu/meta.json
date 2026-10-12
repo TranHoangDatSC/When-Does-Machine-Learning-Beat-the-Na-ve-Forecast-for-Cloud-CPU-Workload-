@@ -1,0 +1,43 @@
+{
+  "thi_nghiem": "tn_b",
+  "ngay": "2026-09-26T12:11:39+00:00",
+  "argv": [
+    "--env",
+    "E2m08",
+    "--gioi-han-fold",
+    "1",
+    "--out",
+    "results\\v5\\tn_b_thu"
+  ],
+  "python": ".venv\\Scripts\\python.exe",
+  "env": [
+    "E2m08"
+  ],
+  "horizons": [
+    1,
+    12
+  ],
+  "modes": [
+    "N0",
+    "N1"
+  ],
+  "models": [
+    "naive",
+    "ma6",
+    "seasonal",
+    "seasonal_tuan",
+    "ridge",
+    "xgb",
+    "xgb_mae"
+  ],
+  "seed": 42,
+  "ngay_toi_thieu": 14,
+  "ngay_moi_lan": 7,
+  "sieu_tham_so": "lấy từ Thí nghiệm A theo NGUON_THAM_SO",
+  "van_tay": {
+    "ma": "fbad7b8b0cd53ff5",
+    "cau_hinh": "b141960851ad8c7b",
+    "du_lieu": "fc23f52173ada0fb"
+  },
+  "giay": 1102.7
+}

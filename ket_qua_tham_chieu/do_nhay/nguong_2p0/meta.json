@@ -1,0 +1,23 @@
+{
+  "nguong": 2.0,
+  "models": [
+    "naive",
+    "xgb",
+    "xgb_mae"
+  ],
+  "modes": [
+    "N0",
+    "N1"
+  ],
+  "horizons": [
+    1,
+    12
+  ],
+  "seed": 42,
+  "van_tay": {
+    "ma": "21d5e3256353ee5b",
+    "cau_hinh": "b141960851ad8c7b",
+    "du_lieu": "73cfbc75335b2ece"
+  },
+  "sieu_tham_so": "lấy từ Thí nghiệm A, không dò lại"
+}

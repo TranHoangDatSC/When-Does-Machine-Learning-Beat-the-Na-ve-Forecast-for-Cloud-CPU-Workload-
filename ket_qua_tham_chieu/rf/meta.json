@@ -1,0 +1,30 @@
+{
+  "cau_hinh": {
+    "max_depth": 16
+  },
+  "mac_dinh_trong_registry": [
+    {
+      "max_depth": 8
+    },
+    {
+      "max_depth": 16
+    }
+  ],
+  "envs": [
+    "E1",
+    "E2",
+    "E3"
+  ],
+  "horizons": [
+    1,
+    12
+  ],
+  "mode": "N0",
+  "seed": 42,
+  "van_tay": {
+    "ma": "21d5e3256353ee5b",
+    "cau_hinh": "b141960851ad8c7b",
+    "du_lieu": "b14e604353295943"
+  },
+  "ghi_chu": "cấu hình định trước, không dò siêu tham số; chỉ để nối với bảng của v4"
+}

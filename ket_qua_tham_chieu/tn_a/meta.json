@@ -1,0 +1,116 @@
+{
+  "thi_nghiem": "tn_a",
+  "ngay": "2026-09-24T23:04:32+00:00",
+  "argv": [
+    "--tat-ca",
+    "--resume"
+  ],
+  "python": ".venv\\Scripts\\python.exe",
+  "env": [
+    "E1",
+    "E2",
+    "E3"
+  ],
+  "horizons": [
+    1,
+    6,
+    12
+  ],
+  "modes": [
+    "N0",
+    "N1"
+  ],
+  "models": [
+    "naive",
+    "ma6",
+    "seasonal",
+    "ridge",
+    "xgb",
+    "xgb_mae",
+    "svr"
+  ],
+  "seed": 42,
+  "khung": {
+    "window_buckets": 2304,
+    "n_train": 1612,
+    "n_val": 345,
+    "n_folds": 5
+  },
+  "luoi": {
+    "ridge": [
+      {
+        "alpha": 0.01
+      },
+      {
+        "alpha": 0.1
+      },
+      {
+        "alpha": 1.0
+      },
+      {
+        "alpha": 10.0
+      },
+      {
+        "alpha": 100.0
+      }
+    ],
+    "xgb": [
+      {
+        "max_depth": 4,
+        "n_estimators": 300
+      },
+      {
+        "max_depth": 8,
+        "n_estimators": 300
+      },
+      {
+        "max_depth": 8,
+        "n_estimators": 600
+      }
+    ],
+    "xgb_mae": [
+      {
+        "max_depth": 4,
+        "n_estimators": 300
+      },
+      {
+        "max_depth": 8,
+        "n_estimators": 300
+      },
+      {
+        "max_depth": 8,
+        "n_estimators": 600
+      }
+    ],
+    "svr": [
+      {
+        "C": 1.0
+      },
+      {
+        "C": 10.0
+      }
+    ]
+  },
+  "loss": {
+    "ridge": "binh_phuong",
+    "xgb": "binh_phuong",
+    "xgb_mae": "tuyet_doi",
+    "svr": "epsilon_insensitive"
+  },
+  "so_lan_cham_test": 72,
+  "van_tay": {
+    "ma": "0f35d6437da2624c",
+    "cau_hinh": "b141960851ad8c7b",
+    "du_lieu": "edc53f01538fa0a5"
+  },
+  "phien_ban": {
+    "python": "3.11.9",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "pyarrow": "18.1.0",
+    "scipy": "1.14.1",
+    "sklearn": "1.5.2",
+    "xgboost": "2.1.3"
+  },
+  "giay": 104173.8
+}

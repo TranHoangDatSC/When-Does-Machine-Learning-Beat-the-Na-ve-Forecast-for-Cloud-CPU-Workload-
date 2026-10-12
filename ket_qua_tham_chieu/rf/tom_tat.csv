@@ -1,0 +1,13 @@
+thi_nghiem,nguon,dich,mode,h,model,loss,seed,fold,n_train,n_cham,sieu_tham_so,diem_val,giay,tep_du_doan,ghi_chu,van_tay_ma,van_tay_cau_hinh,van_tay_du_lieu
+rf,E1,E1,N0,1,naive,khong,42,test,0,244774,{},,0.8,E1-E1_N0_co_naive_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,b14e604353295943
+rf,E1,E1,N0,1,rf,binh_phuong,42,test,1366018,244774,"{""max_depth"": 16}",,260.8,E1-E1_N0_co_rf_binh_phuong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,b14e604353295943
+rf,E1,E1,N0,12,naive,khong,42,test,0,236986,{},,0.4,E1-E1_N0_co_naive_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,b14e604353295943
+rf,E1,E1,N0,12,rf,binh_phuong,42,test,1358230,236986,"{""max_depth"": 16}",,262.2,E1-E1_N0_co_rf_binh_phuong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,b14e604353295943
+rf,E2,E2,N0,1,naive,khong,42,test,0,104446,{},,0.2,E2-E2_N0_co_naive_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,b14e604353295943
+rf,E2,E2,N0,1,rf,binh_phuong,42,test,572539,104446,"{""max_depth"": 16}",,99.4,E2-E2_N0_co_rf_binh_phuong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,b14e604353295943
+rf,E2,E2,N0,12,naive,khong,42,test,0,101124,{},,0.2,E2-E2_N0_co_naive_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,b14e604353295943
+rf,E2,E2,N0,12,rf,binh_phuong,42,test,567320,101124,"{""max_depth"": 16}",,90.0,E2-E2_N0_co_rf_binh_phuong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,b14e604353295943
+rf,E3,E3,N0,1,naive,khong,42,test,0,167910,{},,0.2,E3-E3_N0_co_naive_khong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,b14e604353295943
+rf,E3,E3,N0,1,rf,binh_phuong,42,test,749579,167910,"{""max_depth"": 16}",,203.5,E3-E3_N0_co_rf_binh_phuong_h1_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,b14e604353295943
+rf,E3,E3,N0,12,naive,khong,42,test,0,162518,{},,0.2,E3-E3_N0_co_naive_khong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,b14e604353295943
+rf,E3,E3,N0,12,rf,binh_phuong,42,test,728894,162518,"{""max_depth"": 16}",,176.2,E3-E3_N0_co_rf_binh_phuong_h12_test.parquet,,21d5e3256353ee5b,b141960851ad8c7b,b14e604353295943

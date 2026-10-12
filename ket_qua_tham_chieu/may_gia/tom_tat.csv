@@ -1,0 +1,109 @@
+thi_nghiem,nguon,dich,mode,h,model,loss,seed,fold,n_train,n_cham,sieu_tham_so,diem_val,giay,tep_du_doan,ghi_chu,van_tay_ma,van_tay_cau_hinh,van_tay_du_lieu
+may_gia,E1a,E1a,N0,1,ridge,binh_phuong,42,test,709571,127224,"{""alpha"": 0.01}",,3.7,E1a-E1a_N0_co_ridge_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,1,xgb,binh_phuong,42,test,709571,127224,"{""max_depth"": 8, ""n_estimators"": 600}",,29.5,E1a-E1a_N0_co_xgb_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,1,xgb_mae,tuyet_doi,42,test,709571,127224,"{""max_depth"": 8, ""n_estimators"": 600}",,285.9,E1a-E1a_N0_co_xgb_mae_tuyet_doi_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,1,naive,khong,42,test,0,127224,{},,0.3,E1a-E1a_N0_co_naive_khong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,1,ma6,khong,42,test,0,127224,{},,0.4,E1a-E1a_N0_co_ma6_khong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,1,seasonal,khong,42,test,0,127224,{},,0.7,E1a-E1a_N0_co_seasonal_khong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N0,1,ridge,binh_phuong,42,test,709571,23438,"{""alpha"": 0.01}",,2.0,E1a-E1g_N0_co_ridge_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N0,1,xgb,binh_phuong,42,test,709571,23438,"{""max_depth"": 8, ""n_estimators"": 600}",,47.2,E1a-E1g_N0_co_xgb_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N0,1,xgb_mae,tuyet_doi,42,test,709571,23438,"{""max_depth"": 8, ""n_estimators"": 600}",,261.4,E1a-E1g_N0_co_xgb_mae_tuyet_doi_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,6,ridge,binh_phuong,42,test,707734,125384,"{""alpha"": 0.1}",,1.4,E1a-E1a_N0_co_ridge_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,6,xgb,binh_phuong,42,test,707734,125384,"{""max_depth"": 8, ""n_estimators"": 600}",,51.2,E1a-E1a_N0_co_xgb_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,6,xgb_mae,tuyet_doi,42,test,707734,125384,"{""max_depth"": 8, ""n_estimators"": 300}",,133.2,E1a-E1a_N0_co_xgb_mae_tuyet_doi_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,6,naive,khong,42,test,0,125384,{},,0.5,E1a-E1a_N0_co_naive_khong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,6,ma6,khong,42,test,0,125384,{},,0.6,E1a-E1a_N0_co_ma6_khong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,6,seasonal,khong,42,test,0,125384,{},,1.0,E1a-E1a_N0_co_seasonal_khong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N0,6,ridge,binh_phuong,42,test,707734,23098,"{""alpha"": 0.1}",,1.5,E1a-E1g_N0_co_ridge_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N0,6,xgb,binh_phuong,42,test,707734,23098,"{""max_depth"": 8, ""n_estimators"": 600}",,67.5,E1a-E1g_N0_co_xgb_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N0,6,xgb_mae,tuyet_doi,42,test,707734,23098,"{""max_depth"": 8, ""n_estimators"": 300}",,139.2,E1a-E1g_N0_co_xgb_mae_tuyet_doi_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,12,ridge,binh_phuong,42,test,705523,123176,"{""alpha"": 1.0}",,1.8,E1a-E1a_N0_co_ridge_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,12,xgb,binh_phuong,42,test,705523,123176,"{""max_depth"": 8, ""n_estimators"": 300}",,22.9,E1a-E1a_N0_co_xgb_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,12,xgb_mae,tuyet_doi,42,test,705523,123176,"{""max_depth"": 8, ""n_estimators"": 300}",,148.3,E1a-E1a_N0_co_xgb_mae_tuyet_doi_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,12,naive,khong,42,test,0,123176,{},,0.5,E1a-E1a_N0_co_naive_khong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,12,ma6,khong,42,test,0,123176,{},,0.4,E1a-E1a_N0_co_ma6_khong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N0,12,seasonal,khong,42,test,0,123176,{},,1.1,E1a-E1a_N0_co_seasonal_khong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N0,12,ridge,binh_phuong,42,test,705523,22690,"{""alpha"": 1.0}",,1.2,E1a-E1g_N0_co_ridge_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N0,12,xgb,binh_phuong,42,test,705523,22690,"{""max_depth"": 8, ""n_estimators"": 300}",,21.6,E1a-E1g_N0_co_xgb_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N0,12,xgb_mae,tuyet_doi,42,test,705523,22690,"{""max_depth"": 8, ""n_estimators"": 300}",,134.5,E1a-E1g_N0_co_xgb_mae_tuyet_doi_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,1,ridge,binh_phuong,42,test,709571,127224,"{""alpha"": 100.0}",,2.2,E1a-E1a_N1_co_ridge_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,1,xgb,binh_phuong,42,test,709571,127224,"{""max_depth"": 8, ""n_estimators"": 300}",,21.4,E1a-E1a_N1_co_xgb_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,1,xgb_mae,tuyet_doi,42,test,709571,127224,"{""max_depth"": 8, ""n_estimators"": 600}",,301.1,E1a-E1a_N1_co_xgb_mae_tuyet_doi_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,1,naive,khong,42,test,0,127224,{},,0.4,E1a-E1a_N1_co_naive_khong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,1,ma6,khong,42,test,0,127224,{},,0.4,E1a-E1a_N1_co_ma6_khong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,1,seasonal,khong,42,test,0,127224,{},,0.8,E1a-E1a_N1_co_seasonal_khong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N1,1,ridge,binh_phuong,42,test,709571,23438,"{""alpha"": 100.0}",,1.1,E1a-E1g_N1_co_ridge_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N1,1,xgb,binh_phuong,42,test,709571,23438,"{""max_depth"": 8, ""n_estimators"": 300}",,22.1,E1a-E1g_N1_co_xgb_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N1,1,xgb_mae,tuyet_doi,42,test,709571,23438,"{""max_depth"": 8, ""n_estimators"": 600}",,244.9,E1a-E1g_N1_co_xgb_mae_tuyet_doi_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,6,ridge,binh_phuong,42,test,707734,125384,"{""alpha"": 1.0}",,1.2,E1a-E1a_N1_co_ridge_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,6,xgb,binh_phuong,42,test,707734,125384,"{""max_depth"": 8, ""n_estimators"": 300}",,21.0,E1a-E1a_N1_co_xgb_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,6,xgb_mae,tuyet_doi,42,test,707734,125384,"{""max_depth"": 4, ""n_estimators"": 300}",,86.0,E1a-E1a_N1_co_xgb_mae_tuyet_doi_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,6,naive,khong,42,test,0,125384,{},,0.3,E1a-E1a_N1_co_naive_khong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,6,ma6,khong,42,test,0,125384,{},,0.3,E1a-E1a_N1_co_ma6_khong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,6,seasonal,khong,42,test,0,125384,{},,0.6,E1a-E1a_N1_co_seasonal_khong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N1,6,ridge,binh_phuong,42,test,707734,23098,"{""alpha"": 1.0}",,0.8,E1a-E1g_N1_co_ridge_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N1,6,xgb,binh_phuong,42,test,707734,23098,"{""max_depth"": 8, ""n_estimators"": 300}",,22.6,E1a-E1g_N1_co_xgb_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N1,6,xgb_mae,tuyet_doi,42,test,707734,23098,"{""max_depth"": 4, ""n_estimators"": 300}",,83.0,E1a-E1g_N1_co_xgb_mae_tuyet_doi_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,12,ridge,binh_phuong,42,test,705523,123176,"{""alpha"": 0.1}",,1.2,E1a-E1a_N1_co_ridge_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,12,xgb,binh_phuong,42,test,705523,123176,"{""max_depth"": 4, ""n_estimators"": 300}",,14.0,E1a-E1a_N1_co_xgb_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,12,xgb_mae,tuyet_doi,42,test,705523,123176,"{""max_depth"": 4, ""n_estimators"": 300}",,94.3,E1a-E1a_N1_co_xgb_mae_tuyet_doi_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,12,naive,khong,42,test,0,123176,{},,0.2,E1a-E1a_N1_co_naive_khong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,12,ma6,khong,42,test,0,123176,{},,0.2,E1a-E1a_N1_co_ma6_khong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1a,N1,12,seasonal,khong,42,test,0,123176,{},,0.4,E1a-E1a_N1_co_seasonal_khong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N1,12,ridge,binh_phuong,42,test,705523,22690,"{""alpha"": 0.1}",,0.5,E1a-E1g_N1_co_ridge_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N1,12,xgb,binh_phuong,42,test,705523,22690,"{""max_depth"": 4, ""n_estimators"": 300}",,8.1,E1a-E1g_N1_co_xgb_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1a,E1g,N1,12,xgb_mae,tuyet_doi,42,test,705523,22690,"{""max_depth"": 4, ""n_estimators"": 300}",,87.8,E1a-E1g_N1_co_xgb_mae_tuyet_doi_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,1,ridge,binh_phuong,42,test,130957,23438,"{""alpha"": 0.01}",,0.6,E1g-E1g_N0_co_ridge_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,1,xgb,binh_phuong,42,test,130957,23438,"{""max_depth"": 8, ""n_estimators"": 600}",,11.0,E1g-E1g_N0_co_xgb_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,1,xgb_mae,tuyet_doi,42,test,130957,23438,"{""max_depth"": 8, ""n_estimators"": 600}",,29.2,E1g-E1g_N0_co_xgb_mae_tuyet_doi_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,1,naive,khong,42,test,0,23438,{},,0.1,E1g-E1g_N0_co_naive_khong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,1,ma6,khong,42,test,0,23438,{},,0.1,E1g-E1g_N0_co_ma6_khong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,1,seasonal,khong,42,test,0,23438,{},,0.1,E1g-E1g_N0_co_seasonal_khong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N0,1,ridge,binh_phuong,42,test,130957,127224,"{""alpha"": 0.01}",,0.6,E1g-E1a_N0_co_ridge_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N0,1,xgb,binh_phuong,42,test,130957,127224,"{""max_depth"": 8, ""n_estimators"": 600}",,7.3,E1g-E1a_N0_co_xgb_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N0,1,xgb_mae,tuyet_doi,42,test,130957,127224,"{""max_depth"": 8, ""n_estimators"": 600}",,31.8,E1g-E1a_N0_co_xgb_mae_tuyet_doi_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,6,ridge,binh_phuong,42,test,130622,23098,"{""alpha"": 0.1}",,0.2,E1g-E1g_N0_co_ridge_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,6,xgb,binh_phuong,42,test,130622,23098,"{""max_depth"": 8, ""n_estimators"": 600}",,11.2,E1g-E1g_N0_co_xgb_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,6,xgb_mae,tuyet_doi,42,test,130622,23098,"{""max_depth"": 8, ""n_estimators"": 300}",,19.6,E1g-E1g_N0_co_xgb_mae_tuyet_doi_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,6,naive,khong,42,test,0,23098,{},,0.1,E1g-E1g_N0_co_naive_khong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,6,ma6,khong,42,test,0,23098,{},,0.1,E1g-E1g_N0_co_ma6_khong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,6,seasonal,khong,42,test,0,23098,{},,0.2,E1g-E1g_N0_co_seasonal_khong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N0,6,ridge,binh_phuong,42,test,130622,125384,"{""alpha"": 0.1}",,0.5,E1g-E1a_N0_co_ridge_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N0,6,xgb,binh_phuong,42,test,130622,125384,"{""max_depth"": 8, ""n_estimators"": 600}",,13.8,E1g-E1a_N0_co_xgb_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N0,6,xgb_mae,tuyet_doi,42,test,130622,125384,"{""max_depth"": 8, ""n_estimators"": 300}",,20.4,E1g-E1a_N0_co_xgb_mae_tuyet_doi_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,12,ridge,binh_phuong,42,test,130209,22690,"{""alpha"": 1.0}",,0.2,E1g-E1g_N0_co_ridge_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,12,xgb,binh_phuong,42,test,130209,22690,"{""max_depth"": 8, ""n_estimators"": 300}",,4.5,E1g-E1g_N0_co_xgb_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,12,xgb_mae,tuyet_doi,42,test,130209,22690,"{""max_depth"": 8, ""n_estimators"": 300}",,14.5,E1g-E1g_N0_co_xgb_mae_tuyet_doi_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,12,naive,khong,42,test,0,22690,{},,0.1,E1g-E1g_N0_co_naive_khong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,12,ma6,khong,42,test,0,22690,{},,0.1,E1g-E1g_N0_co_ma6_khong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N0,12,seasonal,khong,42,test,0,22690,{},,0.1,E1g-E1g_N0_co_seasonal_khong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N0,12,ridge,binh_phuong,42,test,130209,123176,"{""alpha"": 1.0}",,0.3,E1g-E1a_N0_co_ridge_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N0,12,xgb,binh_phuong,42,test,130209,123176,"{""max_depth"": 8, ""n_estimators"": 300}",,3.9,E1g-E1a_N0_co_xgb_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N0,12,xgb_mae,tuyet_doi,42,test,130209,123176,"{""max_depth"": 8, ""n_estimators"": 300}",,13.0,E1g-E1a_N0_co_xgb_mae_tuyet_doi_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,1,ridge,binh_phuong,42,test,130957,23438,"{""alpha"": 100.0}",,0.1,E1g-E1g_N1_co_ridge_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,1,xgb,binh_phuong,42,test,130957,23438,"{""max_depth"": 8, ""n_estimators"": 300}",,3.4,E1g-E1g_N1_co_xgb_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,1,xgb_mae,tuyet_doi,42,test,130957,23438,"{""max_depth"": 8, ""n_estimators"": 600}",,28.7,E1g-E1g_N1_co_xgb_mae_tuyet_doi_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,1,naive,khong,42,test,0,23438,{},,0.1,E1g-E1g_N1_co_naive_khong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,1,ma6,khong,42,test,0,23438,{},,0.1,E1g-E1g_N1_co_ma6_khong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,1,seasonal,khong,42,test,0,23438,{},,0.1,E1g-E1g_N1_co_seasonal_khong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N1,1,ridge,binh_phuong,42,test,130957,127224,"{""alpha"": 100.0}",,0.4,E1g-E1a_N1_co_ridge_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N1,1,xgb,binh_phuong,42,test,130957,127224,"{""max_depth"": 8, ""n_estimators"": 300}",,6.7,E1g-E1a_N1_co_xgb_binh_phuong_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N1,1,xgb_mae,tuyet_doi,42,test,130957,127224,"{""max_depth"": 8, ""n_estimators"": 600}",,48.4,E1g-E1a_N1_co_xgb_mae_tuyet_doi_h1_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,6,ridge,binh_phuong,42,test,130622,23098,"{""alpha"": 1.0}",,0.3,E1g-E1g_N1_co_ridge_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,6,xgb,binh_phuong,42,test,130622,23098,"{""max_depth"": 8, ""n_estimators"": 300}",,6.4,E1g-E1g_N1_co_xgb_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,6,xgb_mae,tuyet_doi,42,test,130622,23098,"{""max_depth"": 4, ""n_estimators"": 300}",,19.7,E1g-E1g_N1_co_xgb_mae_tuyet_doi_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,6,naive,khong,42,test,0,23098,{},,0.1,E1g-E1g_N1_co_naive_khong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,6,ma6,khong,42,test,0,23098,{},,0.1,E1g-E1g_N1_co_ma6_khong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,6,seasonal,khong,42,test,0,23098,{},,0.2,E1g-E1g_N1_co_seasonal_khong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N1,6,ridge,binh_phuong,42,test,130622,125384,"{""alpha"": 1.0}",,0.7,E1g-E1a_N1_co_ridge_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N1,6,xgb,binh_phuong,42,test,130622,125384,"{""max_depth"": 8, ""n_estimators"": 300}",,6.3,E1g-E1a_N1_co_xgb_binh_phuong_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N1,6,xgb_mae,tuyet_doi,42,test,130622,125384,"{""max_depth"": 4, ""n_estimators"": 300}",,15.7,E1g-E1a_N1_co_xgb_mae_tuyet_doi_h6_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,12,ridge,binh_phuong,42,test,130209,22690,"{""alpha"": 0.1}",,0.3,E1g-E1g_N1_co_ridge_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,12,xgb,binh_phuong,42,test,130209,22690,"{""max_depth"": 4, ""n_estimators"": 300}",,3.9,E1g-E1g_N1_co_xgb_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,12,xgb_mae,tuyet_doi,42,test,130209,22690,"{""max_depth"": 4, ""n_estimators"": 300}",,21.6,E1g-E1g_N1_co_xgb_mae_tuyet_doi_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,12,naive,khong,42,test,0,22690,{},,0.1,E1g-E1g_N1_co_naive_khong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,12,ma6,khong,42,test,0,22690,{},,0.1,E1g-E1g_N1_co_ma6_khong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1g,N1,12,seasonal,khong,42,test,0,22690,{},,0.2,E1g-E1g_N1_co_seasonal_khong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N1,12,ridge,binh_phuong,42,test,130209,123176,"{""alpha"": 0.1}",,1.0,E1g-E1a_N1_co_ridge_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N1,12,xgb,binh_phuong,42,test,130209,123176,"{""max_depth"": 4, ""n_estimators"": 300}",,8.7,E1g-E1a_N1_co_xgb_binh_phuong_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5
+may_gia,E1g,E1a,N1,12,xgb_mae,tuyet_doi,42,test,130209,123176,"{""max_depth"": 4, ""n_estimators"": 300}",,35.6,E1g-E1a_N1_co_xgb_mae_tuyet_doi_h12_test.parquet,,c34d7b1e76fdb0d2,b141960851ad8c7b,661f7f21411506d5

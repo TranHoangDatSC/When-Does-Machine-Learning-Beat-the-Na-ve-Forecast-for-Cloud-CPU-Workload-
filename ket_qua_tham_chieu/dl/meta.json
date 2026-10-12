@@ -1,0 +1,52 @@
+{
+  "ngay": "2026-09-25T02:50:16+00:00",
+  "argv": [
+    "--env",
+    "E1,E2,E3",
+    "--horizons",
+    "1,6,12",
+    "--models",
+    "dlinear",
+    "--seeds",
+    "42,43,44",
+    "--out",
+    "results\\v5\\dl",
+    "--resume"
+  ],
+  "python": ".venv-dl\\Scripts\\python.exe",
+  "torch": "2.14.0+cpu",
+  "thiet_bi": "cpu",
+  "cap": [
+    [
+      "E1",
+      "E1"
+    ],
+    [
+      "E2",
+      "E2"
+    ],
+    [
+      "E3",
+      "E3"
+    ]
+  ],
+  "horizons": [
+    1,
+    6,
+    12
+  ],
+  "models": [
+    "dlinear"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "L": 288,
+  "epochs": 30,
+  "patience": 5,
+  "batch": 1024,
+  "lr": 0.001,
+  "chuan_hoa": "N1: mu, sd của phần train từng máy"
+}
