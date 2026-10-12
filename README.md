@@ -170,6 +170,13 @@ stored beside each prediction matches the preprocessed data, that baseline model
 identical predictions under both normalisations, and that the pre-declared grid of
 combinations has no missing cell.
 
+The sign-test diagnostic of Sec. 4.6 of the paper, set beside the signed-rank test on the
+same pairs, is rebuilt from the Experiment B predictions:
+
+```bash
+python scripts/chan_doan_kiem_dinh_dau.py   # writes results/chan_doan/kiem_dinh_dau_tn_b.csv
+```
+
 ### Do the two paths agree?
 
 They must, and the comparison script is how you find out. Two caveats, stated plainly.
@@ -345,6 +352,13 @@ Nó kiểm mười một tính chất: mọi họ so sánh chấm trên đúng c
 trong tập chấm bị thiếu hay vô hạn, giá trị thật lưu cạnh mỗi dự đoán khớp dữ liệu đã tiền
 xử lý, mô hình cơ sở cho dự đoán y hệt nhau ở hai chế độ chuẩn hoá, và lưới tổ hợp đã chốt
 không thiếu ô nào.
+
+Phép chẩn đoán kiểm định dấu ở mục 4.6 của bài, đặt cạnh kiểm định hạng có dấu trên cùng
+các cặp, được dựng lại từ dự đoán của Thí nghiệm B:
+
+```bash
+python scripts/chan_doan_kiem_dinh_dau.py   # ghi results/chan_doan/kiem_dinh_dau_tn_b.csv
+```
 
 ### Hai đường có cho cùng kết quả không?
 
